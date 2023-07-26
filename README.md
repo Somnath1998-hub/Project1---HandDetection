@@ -25,6 +25,7 @@ bjective: Develop a vision system to detect and prevent accidents by identifying
 **Solution:-**
 
 1. System Architecture:
+   
 Hardware -
 a) Camera - The vision system relies on capturing image frames from a camera source. In my case, I am utilizing the built-in camera on my laptop to capture the video stream.
 b) Operating System - MediaPipe and open-cv supports Windows, so I am using Windows 10
@@ -38,6 +39,7 @@ ii. open-cv - To capture and process video stream
 iii. mediapipe - MediaPipe is an open-source framework developed by google for building pipelines to perform computer vision inference over arbitrary sensory data such as video or audio.
 
 2. Image Processing and Hand Detection:
+   
 To develop a vision system aimed at detecting and preventing accidents, the system will identify human hands in close proximity to critical machine parts. In this setup, two rectangles will
 represent the critical machine parts. If the tip of a person's index finger crosses either of these rectangles, an alert will be triggered and displayed on the screen.
 The purpose of the alert is to warn the individual of the potential danger posed by their hand's position relative to the critical machine parts.
@@ -46,11 +48,14 @@ Steps to Capture Hand Movement in an Image and Show an Alert on Screen When the 
 i. Begin by importing the necessary libraries: OpenCV for image processing and MediaPipe for hand detection.
 ii. Capture the video stream using OpenCV and convert each frame to RGB format as MediaPipe requires RGB images for processing.
 iii. Define the critical region on the image by creating two rectangles, marked as the red zone, using OpenCV.
+
 iv. Initialize the hand detection object from MediaPipe and pass the video stream as input to detect and track the hand in each frame.
 v. Locate the tip of the index finger in the image and save its coordinates into a list for further processing.
 vi. Implement an alert mechanism to check if the tip of the index finger crosses the red zone. If detected, display an alert on the screen to indicate the event.
+![image](https://github.com/Somnath1998-hub/Project1---HandDetection/assets/83363287/f128562a-6027-4823-b20d-56bcc4bdc9d8)
 
 3. AI Training and Development:
+   
 To detect hands in image I am using transfer leraning optimising mediapipe open-source framework. By using MediaPipe to detect hands in an image involves
 leveraging a pre-trained hand detection model as a starting point.
 
