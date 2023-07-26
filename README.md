@@ -26,11 +26,11 @@ bjective: Develop a vision system to detect and prevent accidents by identifying
 
 1. System Architecture:
 Hardware -
-i. Camera - The vision system relies on capturing image frames from a camera source. In my case, I am utilizing the built-in camera on my laptop to capture the video stream.
-ii. Operating System - MediaPipe and open-cv supports Windows, so I am using Windows 10
-iii. CPU - A modern multi-core processor with a clock speed of at least 2.0 GHz or higher.
-iv. RAM: At least 4 GB of RAM is typically sufficient for basic MediaPipe applications and open-cv.
-v. Graphics: Since MediaPipe primarily runs on the CPU, you don't need a dedicated graphics card.
+a) Camera - The vision system relies on capturing image frames from a camera source. In my case, I am utilizing the built-in camera on my laptop to capture the video stream.
+b) Operating System - MediaPipe and open-cv supports Windows, so I am using Windows 10
+c) CPU - A modern multi-core processor with a clock speed of at least 2.0 GHz or higher.
+d) RAM: At least 4 GB of RAM is typically sufficient for basic MediaPipe applications and open-cv.
+e) Graphics: Since MediaPipe primarily runs on the CPU, you don't need a dedicated graphics card.
 
 Software 
 i. Python - I am using python 3.8 version
