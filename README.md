@@ -49,6 +49,7 @@ i. Begin by importing the necessary libraries: OpenCV for image processing and M
 ii. Capture the video stream using OpenCV and convert each frame to RGB format as MediaPipe requires RGB images for processing.
 iii. Define the critical region on the image by creating two rectangles, marked as the red zone, using OpenCV.
 ![image](https://github.com/Somnath1998-hub/Project1---HandDetection/assets/83363287/f128562a-6027-4823-b20d-56bcc4bdc9d8)
+
 iv. Initialize the hand detection object from MediaPipe and pass the video stream as input to detect and track the hand in each frame.
 v. Locate the tip of the index finger in the image and save its coordinates into a list for further processing.
 vi. Implement an alert mechanism to check if the tip of the index finger crosses the red zone. If detected, display an alert on the screen to indicate the event.
@@ -76,3 +77,6 @@ as well as several rendered synthetic hand models imposed over various backgroun
 
 To maintain the real-time performance of the application, the quality of the video stream will be a key factor. and detecting the critical region will be a challenge that may  arise during the deployment process.
 
+
+
+.
