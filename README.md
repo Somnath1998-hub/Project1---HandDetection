@@ -52,6 +52,7 @@ iii. Define the critical region on the image by creating two rectangles, marked 
 iv. Initialize the hand detection object from MediaPipe and pass the video stream as input to detect and track the hand in each frame.
 v. Locate the tip of the index finger in the image and save its coordinates into a list for further processing.
 vi. Implement an alert mechanism to check if the tip of the index finger crosses the red zone. If detected, display an alert on the screen to indicate the event.
+
 ![image](https://github.com/Somnath1998-hub/Project1---HandDetection/assets/83363287/ff52ed09-fb18-4b83-a8a7-ffeeb073769e)
 
 ![image](https://github.com/Somnath1998-hub/Project1---HandDetection/assets/83363287/19d355a7-bb4e-4f2e-94db-1b2d3d3d3e6f)
@@ -73,5 +74,5 @@ as well as several rendered synthetic hand models imposed over various backgroun
 
 4. Deployment Planning:
 
+To maintain the real-time performance of the application, the quality of the video stream will be a key factor. and detecting the critical region will be a challenge that may  arise during the deployment process.
 
-   
